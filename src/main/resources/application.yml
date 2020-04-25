@@ -7,8 +7,8 @@ spring:
       server:
         git:
           uri: https://github.com/gabriel-silva/ecommerce-configs
-          username:
-          password:
+          username: ${GIT_USERNAME}
+          password: ${GIT_PASSWORD}
 
 #spring:
 #  profiles:
